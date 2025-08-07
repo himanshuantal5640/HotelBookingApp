@@ -39,6 +39,7 @@ import totalBookingIcon from "./totalBookingIcon.svg";
 import totalRevenueIcon from "./totalRevenueIcon.svg";
 
 
+
 export const assets = {
     logo,
     searchIcon,
@@ -76,7 +77,7 @@ export const assets = {
 
 export const cities = [
     "Mumbai",
-    "Delhi",
+    "New Delhi",
     "Chennai",
     "Kolkata",
 ];
@@ -115,26 +116,26 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "Great Stack",
-    "email": "user.greatstack@gmail.com",
+    "username": "Himanshu",
+    "email": "user.himanshuantal26@gmail.com",
     "image": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJ2N2c5YVpSSEFVYVUxbmVYZ2JkSVVuWnFzWSJ9",
     "role": "hotelOwner",
     "createdAt": "2025-03-25T09:29:16.367Z",
     "updatedAt": "2025-04-10T06:34:48.719Z",
     "__v": 1,
     "recentSearchedCities": [
-        "New York"
+        "New Delhi"
     ]
 }
 
 // Hotel Dummy Data
 export const hotelDummyData = {
     "_id": "67f76393197ac559e4089b72",
-    "name": "Urbanza Suites",
-    "address": "Main Road  123 Street , 23 Colony",
-    "contact": "+0123456789",
+    "name": "Taj Palace",
+    "address": "Sardar Patel Marg, Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi 110021",
+    "contact": "+91-8306399008",
     "owner": userDummyData,
-    "city": "New York",
+    "city": "Delhi",
     "createdAt": "2025-04-10T06:22:11.663Z",
     "updatedAt": "2025-04-10T06:22:11.663Z",
     "__v": 0
